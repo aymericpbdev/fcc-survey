@@ -18,7 +18,7 @@
         </header>
         <main id="survey-content">
             <h2>
-                Who the <img src="https://img.freepik.com/psd-premium/canard-caoutchouc-jaune-isole-fond-transparent-png-psd_888962-1809.jpg" class="duck-image" alt="rubber duck" /> are you ?!
+                Who the <img src="https://img.freepik.com/psd-premium/canard-caoutchouc-jaune-isole-fond-transparent-png-psd_888962-1809.jpg" class="duck-image" alt="duck" /> are you ?!
             </h2>
             <form id="survey-form">
                 <div class="form-group">
@@ -39,14 +39,13 @@
                     </label>
                     <input id="number" type="number" min="13" max="99" placeholder="?!" required />
                 </div>
-                <h2>NOTHING is real, but... What is it ?</h2>
-                <div class="form-group radio-group">
+                <fieldset class="form-group radio-group">
+                    <legend>NOTHING is real, but... What is it ?</legend>
                     <label>
                         <input type="radio" name="existence" value="black-hole" checked />
                         A black hole
                     </label>
-                    <label>
-                        <input type="radio" name="existence" value="void" />
+                    <label>                            <input type="radio" name="existence" value="void" />
                         The void
                     </label>
                     <label>
@@ -59,9 +58,9 @@
                     </label>
                     <label>
                         <input type="radio" name="existence" value="nothing" />
-                        Obviously, nothing is NOTHING...
+                            Obviously, nothing is NOTHING...
                     </label>
-                </div>
+                </fieldset>
                 <div class="form-group">
                     <h2>What color would be NOTHING if you could see it ?</h2>
                     <select id="dropdown" required>

@@ -25,6 +25,13 @@
     box-sizing: border-box;
 }
 
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;           /* removes the default border */
+    min-inline-size: 0;     /* fixes a Firefox quirk where fieldsets have a min-width */
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -302,6 +309,18 @@ button[type="submit"]:active {
     color: var(--color-text-dim);
     background: rgba(137, 129, 129, 0.3);
     border-radius: 4px;
+}
+
+legend {
+    margin: var(--spacing-lg) 0 var(--spacing-md) 0;
+    padding: 0;
+    padding-bottom: var(--spacing-xs);
+    width: 100%;            /* legend doesn't span full width by default in some browsers */
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-starlight);
+    border-bottom: 2px solid var(--color-starlight);
+    text-shadow: var(--shadow-glow);
 }
 
 @media (max-width: 768px) {
