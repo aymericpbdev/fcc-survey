@@ -149,7 +149,7 @@ h3 {
 
 .duck-image {
     vertical-align: middle;
-    width: 15%;
+    width: 10%;
     height: auto;
     margin: 0 var(--spacing-xs);
     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
@@ -334,7 +334,7 @@ legend {
         font-size: 1.3rem;
     }
     .duck-image {
-        width: 20%;
+        width: 15%;
     }
 }
 
