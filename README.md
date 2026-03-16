@@ -1,6 +1,6 @@
 # FreeCodeCamp Survey Form
 
-
+## First project for FCC certification Responsive Design 
 
 ## Demo
 
@@ -24,6 +24,7 @@
 Objective: Build an app that is functionally similar to https://survey-form.freecodecamp.rocks. Do not copy this demo project.
 
 User Stories:
+=======
 
 1. You should have a page title in an h1 element with an id of title
 2. You should have a short explanation in a p element with an id of description
