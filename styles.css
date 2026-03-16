@@ -85,16 +85,16 @@ body {
     border: 1px solid rgba(233, 69, 96, 0.2);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-glow), 0 10px 40px rgba(0, 0, 0, 0.8);
-    animation: slideUp 1s ease-out;
+    animation: slideDown 1s ease-out;
 }
 
-@keyframes slideUp {
+@keyframes slideDown {
     from {
-        transform: translateY(0px);
+        transform: translateY(-80px);
         opacity: 0;
     }
     to {
-        transform: translateY(-80px);
+        transform: translateY(0px);
         opacity: 1;
     }
 }
